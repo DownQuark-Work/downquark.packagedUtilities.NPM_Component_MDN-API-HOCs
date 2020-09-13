@@ -18,6 +18,11 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
       - `vue`
       - `svelte`
 
+- Complie with [Rollup](https://rollupjs.org/)
+  - Includes many [actions](https://rollupjs.org/guide/en/#using-untranspiled-config-files)
+  - Allows for [Custom Transforms](https://rollupjs.org/guide/en/#transformers)
+  - [Other](https://github.com/rollup/awesome)
+
 - The end result will allow for easier implementation of _microfrontends_.
   - [If needed](https://www.angulararchitects.io/aktuelles/a-software-architects-approach-towards/)
   - More information & best practices:
@@ -27,7 +32,7 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
       - [Martin Fowler](https://martinfowler.com/articles/micro-frontends.html)
     - [Awesome Microfrontends](https://github.com/ChristianUlbrich/awesome-microfrontends)
     - [custom elements everywhere](https://custom-elements-everywhere.com/)
-- Note:
+- Resources:
   - [Mutation Observer](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
   - [Open Components](https://opencomponents.github.io/)
   - [Component Model Use Cases](https://www.w3.org/2008/webapps/wiki/Component_Model_Use_Cases)
