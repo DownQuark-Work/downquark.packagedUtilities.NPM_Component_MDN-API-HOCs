@@ -20,7 +20,6 @@ publish() {
   )
 }
 
-for i in ./systems/dq-*; do publish $i; done
-
 publish ./dq_universals/globals
+for i in ./systems/dq-*; do publish $i; done
 publish ./_universals/singularity
