@@ -1,7 +1,8 @@
 {
   "private": true,
   "workspaces": [
-    "systems/*"
+    "systems/*",
+    "systems/dq_universals/*"
   ],
   "scripts": {
     "compile": "lerna run compile",

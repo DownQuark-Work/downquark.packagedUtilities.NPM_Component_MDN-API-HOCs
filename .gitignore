@@ -12,6 +12,7 @@ validators/flow/flow-typed/stubs/
 
 # Modules
 node_modules/
+**/lib/
 
 # Optional cache directories
 .eslintcache

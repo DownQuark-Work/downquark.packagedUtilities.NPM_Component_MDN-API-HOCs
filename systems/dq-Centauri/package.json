@@ -12,5 +12,7 @@
     "test": "./exos tap --save=spec/coverage.txt",
     "lint": "./exos lint"
   },
-  "dependencies": {}
+  "dependencies": {
+    "qonsole": "^1.0.9"
+  }
 }
