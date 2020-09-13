@@ -17,3 +17,12 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
       - `react`
       - `vue`
       - `svelte`
+
+- The end result will allow for easier implementation of _microfrontends_.
+  - More information & best practices:
+    - [Micro-Frontends](https://micro-frontends.org/)
+      - [Even More](https://micro-frontends.org/#additional-resources)
+    - [custom elements everywhere](https://custom-elements-everywhere.com/)
+    - [Awesome Microfrontends](https://github.com/ChristianUlbrich/awesome-microfrontends)
+- Note:
+  - [Mutation Observer](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
