@@ -6,7 +6,7 @@
     "test": "./exos test"
   },
   "dependencies": {
-    "@downquark/template_monorepo_module-alpha": "1.0.0.-0", 
-    "@downquark/template_monorepo_module-centauri": "1.0.0.-0"
+    "@downquark/template_monorepo_module-alpha": "1.0.0-0", 
+    "@downquark/template_monorepo_module-centauri": "1.0.0-0"
   }
 }

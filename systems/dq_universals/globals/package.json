@@ -1,5 +1,5 @@
 {
-  "name": "@downquark/template~monorepo~global",
+  "name": "@downquark/template_monorepo-global",
   "version": "1.0.0-0",
   "description": "Creating and defining Global values and objects for all modules",
   "files": [
