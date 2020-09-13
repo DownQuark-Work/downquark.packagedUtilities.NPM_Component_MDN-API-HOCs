@@ -19,7 +19,7 @@ case $CMD in
     ;;
     
   compile)
-    exe "../node_modules/.bin/babel --config-file $(pwd)/configs/babel.config.js --out-dir $1 $2"
+    exe "../../node_modules/.bin/babel --config-file $(pwd)/configs/babel.config.js --out-dir $1 $2"
     ;;
 
   modlib)
