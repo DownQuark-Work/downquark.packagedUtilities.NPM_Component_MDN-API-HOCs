@@ -12,7 +12,7 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
           - ...tbd
 
 - Finally, components will be created in vanilla javascript modules as well as the following frameworks:
-    - [For MVP]:
+    - [For MVP]:`
       - `.mjs`
       - `react`
       - `vue`

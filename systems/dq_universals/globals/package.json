@@ -5,7 +5,8 @@
   "files": [
     "configs/babel.config.js",
     "configs/eslint.config.js",
-    "configs/spec.config.js"
+    "configs/spec.config.js",
+    "configs/rollupt.config.js"
   ],
   "scripts": {
     "test": "./exos test"
@@ -44,7 +45,6 @@
     "react-hot-loader": "^4.12.21",
     "react-router-dom": "^5.2.0",
     "react-test-renderer": "^16.13.1",
-    "rollup": "^2.26.11"
   },
   "devDependenciesInfo": "No Dev Dependencies allowed in current file",
   "devDependencies": {}
