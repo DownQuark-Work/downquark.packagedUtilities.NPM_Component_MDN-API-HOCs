@@ -52,8 +52,8 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
   - `$ yarn lerna bootstrap`
 
 #### publish
-- ensure no breaking changes
-  - `$ yarn lerna bootstrap`
+- `$ yarn publish-packages`
+  - _NOTE_: Update the `package.json` _private_ field to publish to npm
 
 ---
 
