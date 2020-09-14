@@ -18,10 +18,46 @@ This [Monorepo](./ReadAboutMonoRepo.md) will serve a few purposes.
       - `vue`
       - `svelte`
 
-- Complie with [Rollup](https://rollupjs.org/)
+- (Eventually) Compile with [Rollup](https://rollupjs.org/)
   - Includes many [actions](https://rollupjs.org/guide/en/#using-untranspiled-config-files)
   - Allows for [Custom Transforms](https://rollupjs.org/guide/en/#transformers)
   - [Other](https://github.com/rollup/awesome)
+
+
+---
+## Build Process
+###### (Subject to change per project)
+#### on init of project
+- install any packages that are known to be used in _> 1_ modlues/components in `/systems/dq_universals/globals`
+  - Put _**NOTHING**_ in `devDependencies`
+- create initial shared _node\_modules_ directory
+  - `$ cd <PROJECT_ROOT> && yarn`
+- validate and install all dependencies
+  - `$ yarn lerna bootstrap`
+
+#### on init of each component
+- easiest to duplicate an exisiting module
+  - so... duplicate an existing module
+- Update `<PROJECT_ROOT>/lerna.json` (if needed)
+- Update _workspaces_ field within `<PROJECT_ROOT>/package.json` (if needed)
+- ensure per project `configs` directory include all needed resources
+- ensure per project `exos` symlink points to `<PROJECT_ROOT>/exos/task`
+- compile new dependency
+  - Update _compile_ script within `/package.json` (if needed)
+  - `$ lerna run compile`
+- ensure new dependency is added as a dependency to `<PROJECT_ROOT>/systems/dq_universals/singularity/package.json`
+- add module to shared _node\_modules_:
+  - `$ cd <PROJECT_ROOT> && yarn`
+- validate new component and install all dependencies
+  - `$ yarn lerna bootstrap`
+
+#### publish
+- ensure no breaking changes
+  - `$ yarn lerna bootstrap`
+
+---
+
+## Implementation Information
 
 - The end result will allow for easier implementation of _microfrontends_.
   - [If needed](https://www.angulararchitects.io/aktuelles/a-software-architects-approach-towards/)
